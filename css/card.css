@@ -1,0 +1,116 @@
+@font-face{
+    font-family: 'outfit-light';
+    src: url(light.ttf);
+}
+
+@font-face{
+    font-family: 'outfit-regular';
+    src: url(regular.ttf);
+}
+
+@font-face{
+    font-family: 'outfit-semibold';
+    src: url(semibold.ttf);
+}
+
+.main{
+    background-color: hsla(219, 45%, 10%, 0.199) ;
+    margin: auto;
+    width: 380px;
+    height: 480px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+.card{
+margin: auto;
+width: 320px;
+padding: 10px 10px;
+background-color: hsl(216, 50%, 16%);
+border-radius: 10px;
+margin-top: 20px;
+box-shadow: 0 4px 5px 0 rgba(39, 121, 243, 0.596), 0 20px 20px 0 rgba(22, 21, 82, 0.692);
+}
+
+.card-img{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.card-title{
+ margin-left: 10px;
+ font-family: 'outfit-semibold';
+ color: hsl(0, 0%, 100%);
+ font-size:18px;
+}
+
+.card-title:hover{
+    color: cyan;
+}
+   
+.card-text{
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'outfit-regular';
+    color: hsl(214, 21%, 59%);
+}
+
+.card-ethereum{
+    margin-left: 11px;
+    margin-top: 20px;
+}
+
+.eth-price{
+    position: relative;
+    margin-left: 8px;
+    color: hsl(178, 100%, 50%);
+    bottom: 3px;
+    font-weight: bold;
+    font-family: 'outfit-light';
+}
+
+.clock{
+    margin-left: 100px;
+}
+
+.duration{
+    position: relative;
+    bottom: 3px;
+    color: hsl(214, 21%, 59%);
+    font-family: 'outfit-regular';
+}
+
+
+hr.new1{
+    border: 0.5px solid hsl(215, 24%, 24%);
+    width: 290px;
+    margin-top: 15px;
+}
+
+.avatar-image{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.creator{
+    position: relative;
+    bottom: 20px;
+    color: hsl(214, 21%, 59%);
+    font-family: 'outfit-light';
+    margin-left: 15px;
+}
+
+.creator-name{
+    position: relative;
+    bottom: 20px;
+    font-family: 'outfit-light';
+    color: hsl(0, 0%, 100%);
+}
